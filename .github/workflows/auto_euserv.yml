@@ -2,7 +2,7 @@ name: Auto EUserv
 
 on:
   schedule:
-    - cron: '* */12 * * *'  # 每12小时 UTC 时间运行
+    - cron: '0 2 * * SUN'  # 每12小时 UTC 时间运行
   workflow_dispatch:
 
 jobs:
