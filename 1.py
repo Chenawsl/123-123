@@ -13,8 +13,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # 多个账户请使用空格隔开
-USERNAME = os.environ["USERNAME"]  # 用户名或邮箱
-PASSWORD = os.environ["PASSWORD"]  # 密码
+USERNAME = sc7t@yandex.com  # 用户名或邮箱
+PASSWORD = a1528226290  # 密码
 
 # default value is TrueCaptcha demo credential,
 # you can use your own credential via set environment variables:
