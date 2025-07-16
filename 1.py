@@ -26,8 +26,8 @@ PASSWORD = os.environ["a1528226290"]  # 密码
 # 'error': '101.0 above free usage limit 100 per day and no balance',
 # 'requestId': '7690c065-70e0-4757-839b-5fd8381e65c7'
 # }
-TRUECAPTCHA_USERID = os.environ.get("TRUECAPTCHA_USERID", "arun56")
-TRUECAPTCHA_APIKEY = os.environ.get("TRUECAPTCHA_APIKEY", "wMjXmBIcHcdYqO2RrsVN")
+TRUECAPTCHA_USERID = os.environ.get("TRUECAPTCHA_USERID", "daomingchen889@gmail.com")
+TRUECAPTCHA_APIKEY = os.environ.get("TRUECAPTCHA_APIKEY", "xRFRzpY8vIrh0hdwSJGy")
 
 # Extract key data from your emails, automatically. https://mailparser.io 
 # 30 Emails/Month, 10 inboxes and unlimited downloads for free.
@@ -37,8 +37,8 @@ MAILPARSER_DOWNLOAD_URL_ID = os.environ["MAILPARSER_DOWNLOAD_URL_ID"]
 MAILPARSER_DOWNLOAD_BASE_URL = "https://files.mailparser.io/d/"
 
 # Telegram Bot Push https://core.telegram.org/bots/api#authorizing-your-bot
-TG_BOT_TOKEN = ""  # 通过 @BotFather 申请获得，示例：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
-TG_USER_ID = ""  # 用户、群组或频道 ID，示例：129xxx206
+TG_BOT_TOKEN = "7542643854:AAFD492O604KOwM754l4sVqXOnKr-NGZhg4"  # 通过 @BotFather 申请获得，示例：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
+TG_USER_ID = "1733732037"  # 用户、群组或频道 ID，示例：129xxx206
 TG_API_HOST = "https://api.telegram.org"  # 自建 API 反代地址，供网络环境无法访问时使用，网络正常则保持默认
 
 # Email notification
