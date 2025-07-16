@@ -13,8 +13,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # 多个账户请使用空格隔开
-USERNAME = os.environ["daomingchen889@gmail.com"]  # 用户名或邮箱
-PASSWORD = os.environ["qweasdzxc"]  # 密码
+USERNAME = os.environ[""]  # 用户名或邮箱
+PASSWORD = os.environ[""]  # 密码
 
 # default value is TrueCaptcha demo credential,
 # you can use your own credential via set environment variables:
@@ -26,8 +26,8 @@ PASSWORD = os.environ["qweasdzxc"]  # 密码
 # 'error': '101.0 above free usage limit 100 per day and no balance',
 # 'requestId': '7690c065-70e0-4757-839b-5fd8381e65c7'
 # }
-TRUECAPTCHA_USERID = os.environ.get("TRUECAPTCHA_USERID", "daomingchen889@gmail.com")
-TRUECAPTCHA_APIKEY = os.environ.get("TRUECAPTCHA_APIKEY", "xRFRzpY8vIrh0hdwSJGy")
+TRUECAPTCHA_USERID = os.environ.get("TRUECAPTCHA_USERID", "")
+TRUECAPTCHA_APIKEY = os.environ.get("TRUECAPTCHA_APIKEY", "")
 
 # Extract key data from your emails, automatically. https://mailparser.io 
 # 30 Emails/Month, 10 inboxes and unlimited downloads for free.
